@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(0, 7, 67);
+
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* ширина scrollbar */
+}
+body::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);        /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(51, 41, 99);    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+    border: 3px solid rgb(8, 1, 83);  /* padding вокруг плашки */
+}
+
+.up {
+    display: flex;
+    height: 100px;
+    background-color: rgb(25, 33, 85);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search{
+    font-family: "Comfortaa", serif;
+    width: 40%;
+    height: 30%;
+    background-color: rgb(68, 68, 127);
+    margin-top: 35px;
+    border-radius: 10px;
+    color: rgb(190, 199, 255);
+    color: rgb(119, 125, 159);
+}
+
+input:focus{
+    font-family: "Comfortaa", serif;
+    outline: none !important;
+}
+
+input{
+    font-family: "Comfortaa", serif;
+    border: 3px blue;
+}
+
+.games {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game {
+    
+    width: 200px;
+    height: 300px;
+    border: 1px rgb(255, 255, 255), solid;
+    margin: 30px;
+}
+
